@@ -82,6 +82,8 @@ private slots:
     void checkCustomBaudRatePolicy(int idx);
     void checkCustomDevicePathPolicy(int idx);
 
+    void on_applyButton_clicked();
+
 private:
     void fillPortsParameters();
     void fillPortsInfo();
